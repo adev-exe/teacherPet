@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Team Members</title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KDBPartPicker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='baseStyle.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+
+
+<body>
+
+    {% include 'navBar.html' %}
+
+    <!-- <div class="container-xl mx-auto py-5 position-absolute top-50 start-50 translate-middle"> -->
+        <!-- <div class="row g-2 py-5"> -->
+
+            <!-- <div class="col-lg-1 "></div> -->
+                
+
+            <div class="container-xl text-center border border-primary border-5  mt-5">
+                <!-- <h3 class="p-3" style="background-color: #6d8edbc5;" > Miriam Harb </h3> -->
+                <div class="container-xl">
+                    <h3 class="p-3"  > Miriam Harb </h3>
+
+                    <p>
+                        Developed the Team Member Page
+                        Converted some of th JSON files<br>into CSV files with Arturo
+                        Wrote SQL commands to add columns to the database with Arturo
+                    </p>
+                </div>
+            </div>
+
+            <!-- <div class="col-lg-1 "></div> -->
+
+            <div class="container-xl text-center border border-primary border-5   mt-5 ">
+                <h3 class="p-3" > Jan Andre Verceles-Zara </h3>
+                <div class="container-xl ">
+                    <p>
+                        Designed all frontend pages except the Team Member page
+                        Scraped the data for the datasets into JSON files
+                        Cleaned code and found the image assets for site
+                        Filled out the Build Guide Page</li>
+                        Helped add code to populate pages with data from the database</li>
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="container-xl text-center border border-primary border-5  mt-5 " >
+                <h3 class="p-3"> Arturo Calderon </h3>
+                <div class="container-xl ">
+                    <!-- <p> -->
+                        Developed all frontend pages except the Team Member page</li>
+                        Converted some of th JSON files into CSV files</li>
+                        Wrote SQL commands to add columns to the database with Arturo</li>
+                    <!-- </p> -->
+                </div>
+            </div>
+
+
+           
+        <!-- </div> -->
+    <!-- </div> -->
+
+</body>
+
+
+</html>

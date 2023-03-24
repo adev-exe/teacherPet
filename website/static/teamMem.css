@@ -1,0 +1,315 @@
+.art{
+    border: 8px solid #000000;
+    box-sizing: border-box;
+    border-radius: 40px;
+    width: 310px;
+    height: 601px;
+    position: absolute;
+    top: 50%;
+    left: 48.75%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.artName{
+    position: absolute;
+    width: 420px;
+    height: 40px;
+    left: 37.5%;
+    top: 21%;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 58px;
+    text-align: center;
+
+    color: #000000;
+}
+.artTag{
+    box-sizing: border-box;
+    background: #BFE7B8;
+    border-radius: 40px 40px 0px 0px;
+    width: 311px;
+    height: 91px;
+    position: absolute;
+    top: 24.5%;
+    left: 48.75%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.aC{
+    position: absolute;
+    width: 250px;
+    height: 73px;
+    left: 775px;
+    top: 280px;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 35px;
+}
+.mirName{
+    position: absolute;
+    width: 420px;
+    height: 0px;
+    left: 225px;
+    top: 21%;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 58px;
+    text-align: center;
+
+    color: #000000;
+}
+.mir{
+    border: 8px solid #000000;
+    box-sizing: border-box;
+    border-radius: 40px;
+    width: 310px;
+    height: 601px;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(0, -50%)
+}
+.mirTag{
+    box-sizing: border-box;
+    background: #8FC8FD;
+    border-radius: 40px 40px 0px 0px;
+    width: 311px;
+    height: 91px;
+    position: absolute;
+    top: 24.5%;
+    left: 15%;
+    transform: translate(0, -50%)
+}
+.mC{
+    position: absolute;
+    width: 250px;
+    height: 73px;
+    left: 15.75%;
+    top: 280px;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 35px;
+}
+.jan{
+    border: 8px solid #000000;
+    box-sizing: border-box;
+    border-radius: 40px;
+    width: 310px;
+    height: 601px;
+    position: absolute;
+    top: 50%;
+    left: 57%;
+    transform: translate(50%, -50%) 
+}
+.janName{
+    position: absolute;
+    width: 440px;
+    height: 0px;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 35px;
+    text-align: center;
+    top: 21%;
+    left: 50%;
+    transform: translate(50%, -50%);
+
+    color: #000000;
+}
+.janTag{
+    box-sizing: border-box;
+    background: #FFCEAB;
+    border-radius: 40px 40px 0px 0px;
+    width: 311px;
+    height: 91px;
+    position: absolute;
+    top: 24.5%;
+    left: 57%;
+    transform: translate(50%, -50%) 
+}
+.jC{
+    position: absolute;
+    width: 250px;
+    height: 73px;
+    left: 1240px;
+    top: 280px;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 35px;
+}
+.body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+/*MOBILE*/
+@media screen and (max-width: 40.5em) {
+    .mir {
+        position: absolute;
+        width: 180px;
+        height: 259px;
+        left: 118px;
+        top:25%;
+        
+        border: 8px solid #000000;
+        box-sizing: border-box;
+        border-radius: 40px;
+    }
+    .mirTag{
+        position: absolute;
+        width: 180px;
+        height: 52px;
+        left: 118px;
+        top:12%;
+
+        background: #8FC8FD;
+        border-radius: 40px 40px 0px 0px;
+    }
+    .mC{
+        position: absolute;
+        width: 142px;
+        height: 22px;
+        left: 136px;
+        top: 140px;
+        
+        font-family: 'Karla';
+        font-style: normal;
+        font-size: 9px;
+        line-height: 15px; 
+    }
+    .art {
+        position: absolute;
+        width: 180px;
+        height: 259px;
+        left: 41.5%;
+        top: 70%;
+
+        border: 8px solid #000000;
+        box-sizing: border-box;
+        border-radius: 40px;
+    }
+    .artTag{
+        position: absolute;
+        width: 180px;
+        height: 52px;
+        left: 41.5%;
+        top:57%;
+
+        background: #BFE7B8;
+        border-radius: 40px 40px 0px 0px;
+    }
+    .aC{
+        position: absolute;
+        width: 142px;
+        height: 22px;
+        left: 136px;
+        top: 470px;
+        
+        font-family: 'Karla';
+        font-style: normal;
+        font-size: 9px;
+        line-height: 15px; 
+    }
+    .mirName{
+        position: absolute;
+        width: 185px;
+        height: 13px;
+        left: 115px;
+        top: 8%;
+
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+
+        color: #000000;
+    }
+    .artName{
+        position: absolute;
+        width: 420px;
+        height: 40px;
+        left: -2px;
+        top: 53%;
+
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+
+        color: #000000;
+    }
+    .jan{
+        position: absolute;
+        width: 180px;
+        height: 259px;
+
+        border: 8px solid #000000;
+        box-sizing: border-box;
+        border-radius: 40px;
+        top: 115%;
+        left: 5%;
+        transform: translate(50%, -50%)
+    }
+    .janTag{
+        position: absolute;
+        width: 180px;
+        height: 52px;
+
+        background: #FFCEAB;        
+        border-radius: 40px 40px 0px 0px;
+        top: 101%;
+        left: 5%;
+        transform: translate(50%, -50%)
+    }
+    .janName{
+        position: absolute;
+        width: 191px;
+        height: 14px;
+
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 22px;
+        text-align: center;
+
+        color: #000000;
+
+        top: 97%;
+        left: 4%;
+        transform: translate(50%, -50%)
+    }
+    .jC{
+        position: absolute;
+        width: 142px;
+        height: 22px;
+        left: 136px;
+        top: 790px;
+        
+        font-family: 'Karla';
+        font-style: normal;
+        font-size: 9px;
+        line-height: 15px; 
+    }
+  }
